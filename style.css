@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    margin-top: 25px;
+    /* height: 60px; */
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-left{
+   font-size: 35px;
+   display: flex;
+}
+.nav-left ul{
+    display: flex; 
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+}
+.nav-left ul li{
+    list-style:none;
+    font-family: var(--font2);
+    margin: 0 30px;
+    
+}
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+    transition:all 0.3 ease-in-out;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+/* .nav-right{
+
+} */
+.content-right{
+   
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+.content-right img{
+    border:2px solid black;
+    border-radius:300px;
+    
+}
+.content-left{
+font-family: var(--font1);
+z-index: -1;
+padding: 20px;
+margin:2px;
+display: flex;
+flex-direction: column ;
+justify-content: center;
+}
+.content{
+    display: flex;
+    height: 395px;
+    /* background-color: blueviolet; */
+    position: relative;
+    margin-top: 32px;
+    padding: 9px;
+}
+
+.content::after{
+    content:"";
+    background: url('https://myofficein.ph/wp-content/uploads/2018/02/5-Creative-Office-Spaces-in-Philippine-Designs-for-2018.jpg' ) ;
+    position: absolute;
+    height:inherit;
+    width:100%;
+    opacity : 0.21;
+    border-radius: 12px;
+}
+.home-articles{
+    /* height: 455px; */
+    padding: 18px;
+    margin-top: 23px;
+    background-color: rgb(237, 223, 223);
+    position: relative;
+}
+.year-box{
+    
+    position: absolute;
+    width: 150px;
+    height: 255px;
+    /* background-color: blue; */
+    top: 85px;
+    right: 30px;
+    font-size: 15px;
+}
+.year-box div{
+    margin: 12px opx;
+}
+.home-article{
+    display:flex;
+    margin: 25px; ;
+}
+.home-article-content{
+align-self: center;
+padding:    29px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color:black;
+}
+.footer{
+    height: 50px;
+    /* background-color: rgb(63, 134, 205); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-decoration: none; */
+    flex-direction: column;
+    color: black;
+}
+.footer a{
+    color:black;
+}
